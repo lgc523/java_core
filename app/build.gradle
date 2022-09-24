@@ -37,9 +37,12 @@ allprojects {
         annotationProcessor 'org.projectlombok:lombok:1.18.24'
         testCompileOnly 'org.projectlombok:lombok:1.18.24'
         testAnnotationProcessor 'org.projectlombok:lombok:1.18.24'
-        implementation 'org.slf4j:slf4j-api:2.0.0-alpha1'
-        implementation 'org.slf4j:slf4j-log4j12:2.0.0-alpha1'
-        implementation 'org.apache.logging.log4j:log4j:2.14.1'
+        //log
+        implementation 'org.slf4j:slf4j-api:1.7.36'
+        implementation 'ch.qos.logback:logback-classic:1.2.9'
+//        implementation 'org.apache.logging.log4j:log4j-api:2.18.0'
+//        implementation 'org.apache.logging.log4j:log4j-core:2.18.0'
+//        implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.18.0'
     }
 }
 
